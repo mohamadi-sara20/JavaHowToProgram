@@ -3,8 +3,6 @@ package ir.phgnight;
 import java.util.Scanner;
 
 public class Ex14 {
-    private String age;
-
     public static void main(String[] args){
 
         //Exercise#14. a)
