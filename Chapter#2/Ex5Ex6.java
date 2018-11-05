@@ -4,8 +4,6 @@ package ir.phgnight;
 import java.util.Scanner;
 
 public class Ex5Ex6 {
-    private String age;
-
     public static void main(String[] args){
         int x, y, z, result;
         Scanner input = new Scanner(System.in);
