@@ -6,6 +6,7 @@ public class Ex3Ex4 {
     private String age;
 
     public static void main(String[] args){
+
         //Exercise#3
         int c, thisIsAVariable, q76354, number, value;
         number = 10;
