@@ -9,7 +9,7 @@ public class Ex8 {
 
         //Exercise#8:
         int a, b, c;
-        System.out.prit("Enter an integer:");
+        System.out.print("Enter an integer:");
         a = b * c;
 
     }
