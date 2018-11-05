@@ -11,8 +11,8 @@ public class Ex28 {
         System.out.print("Enter the radius: ");
         radius = input.nextInt();
         System.out.printf("Diameter: %d.%n", radius * 2);
-        System.out.printf("Circumference is: %f%n", radius * radius * 3.14159);
-        System.out.printf("Area is: %f.%n", 2 * 3.14159 * radius);
+        System.out.printf("Circumference is: %f%n", 2 * radius * 3.14159);
+        System.out.printf("Area is: %f.%n", radius * radius * 3.14159);
 
 
 
