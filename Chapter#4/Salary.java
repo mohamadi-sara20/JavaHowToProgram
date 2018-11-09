@@ -1,8 +1,5 @@
 package ir.phgnight;
 
-//This program takes items a salesperson has sold one by one, and then calculates the commission and then the salary
-//for that salesperson. It would have also been possible to input the overall amount of the sold items and then calcula-
-//-te the commission.
 
 import java.util.Scanner;
 
