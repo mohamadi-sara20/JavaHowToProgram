@@ -32,7 +32,10 @@ public class Accountt {
             return this.name;}
 
     public void setName(String name){
-            this.name = name;
-        }
+            this.name = name;}
+    public String diplayAccount(Accountt ac){
+
+        return ac.name + " " + ac.balance;
+    }
 
     }
