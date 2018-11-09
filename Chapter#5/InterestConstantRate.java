@@ -1,7 +1,7 @@
 package ir.phgnight;
 
 
-public class Interest {
+public class InterestConstantRate{
     public static void main(String[] args){
         double amount, rate, years, finalAmount;
 
