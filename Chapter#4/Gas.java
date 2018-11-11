@@ -1,14 +1,13 @@
 package ir.phgnight;
 
 public class Gas {
-    public static void main(String[] args) {
+     static int miles, gas;
+     static double totalGas, totalMiles;
+     static double average=0;
 
-        public int miles, gas, totalMiles, totalGas;
-        public double average;
+    public static void main(String[] args) {
         totalGas = 0;
         totalMiles = 0;
-        average = 0;
-        gas = 0; 
 
         java.util.Scanner input = new java.util.Scanner(System.in);
 
@@ -20,20 +19,18 @@ public class Gas {
             System.out.print("Enter gas.");
             gas = input.nextInt();
             totalGas += gas;
-            totalMiles += miles;
-            System.out.printf("Miles per gallon for this trip: %.2f%n", (double) miles / (double) gas);
-        }
+            totalMiles += miles;}
 
         while (miles != -1) {
+            System.out.printf("Miles per gallon for this trip: %.2f%n", (double) miles / (double) gas);
             totalGas += gas;
             totalMiles += miles;
             System.out.print("Enter miles. Enter -1 to quit.");
             miles = input.nextInt();
             System.out.print("Enter gas.");
-            gas = input.nextInt();
-            System.out.printf("Miles per gallon for this trip: %.2f%n", (double) miles / (double) gas);}
+            gas = input.nextInt();}
 
-        average = (double) totalMiles / (double) totalGas;
+        average =  totalMiles / totalGas;
 
         if (!(Double.isNaN(average)))
             System.out.printf("Overall miles per gallon %.2f%n", average);
