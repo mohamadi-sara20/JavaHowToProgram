@@ -1,6 +1,5 @@
 package ir.phgnight;
 
-import javax.management.DynamicMBean;
 import java.util.Scanner;
 
 public class isMultiple {
