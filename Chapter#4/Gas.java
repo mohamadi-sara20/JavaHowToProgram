@@ -1,5 +1,5 @@
 package ir.phgnight;
-
+import java.util.Scanner;
 public class Gas {
      static int miles, gas;
      static double totalGas, totalMiles;
@@ -9,7 +9,7 @@ public class Gas {
         totalGas = 0;
         totalMiles = 0;
 
-        java.util.Scanner input = new java.util.Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Enter miles. Enter -1 to quit. ");
         miles = input.nextInt();
