@@ -11,10 +11,10 @@ public class RoundingNumbers {
         System.out.print("Enter a number you want rounded!");
         num = input.nextDouble();
 
-        System.out.println(roundToInteger(num));
-        System.out.println(roundToTenths(num));
-        System.out.println(roundToHundreths(num));
-        System.out.println(roundToThousands(num));}
+        System.out.printf("Original value: %f Rounded: %4f %n", num, roundToInteger(num));
+        System.out.printf("Original value: %f Rounded: %4f %n", num,roundToTenths(num));
+        System.out.printf("Original value: %f Rounded: %4f %n", num,roundToHundreths(num));
+        System.out.printf("Original value: %f Rounded: %4f %n", num,roundToThousands(num));}
 
 
     public static double roundToInteger(double num){
@@ -28,7 +28,5 @@ public class RoundingNumbers {
 
     public static double roundToThousands(double num){
         return Math.floor(num * 1000 + 0.5) / 1000;}
-
-
 
 }
