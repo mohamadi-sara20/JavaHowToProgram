@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TestMathMethods {
     public static int a;
-    public static Double b;
+    public static double b;
 
     public static void main(String[] args){
         a = -1;
