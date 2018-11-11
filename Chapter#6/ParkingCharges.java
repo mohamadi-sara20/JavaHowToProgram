@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class ParkingCharges {
 
-    private static double hours = 0.0,  feeMax = 10.0;
+    private static double hours = 0.0;
     private static double totalCharges;
     private static double charge = 0.0;
 
