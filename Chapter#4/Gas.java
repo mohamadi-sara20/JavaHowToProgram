@@ -3,12 +3,12 @@ package ir.phgnight;
 public class Gas {
     public static void main(String[] args) {
 
-        int miles, gas, totalMiles, totalGas;
-        double average;
+        public int miles, gas, totalMiles, totalGas;
+        public double average;
         totalGas = 0;
         totalMiles = 0;
         average = 0;
-        gas = 0;
+        gas = 0; 
 
         java.util.Scanner input = new java.util.Scanner(System.in);
 
