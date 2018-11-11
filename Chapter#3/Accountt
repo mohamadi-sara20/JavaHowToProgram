@@ -38,4 +38,11 @@ public class Accountt {
         return ac.name + " " + ac.balance;
     }
 
+
+    public String displayAccount(Accountt name){
+        return this.name + "    " + this.balance;
+
+
+    }
+
     }
