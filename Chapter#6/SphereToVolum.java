@@ -1,6 +1,6 @@
 package ir.phgnight;
 import java.util.Scanner;
-public class SphereToVolum {
+public class SphereToVolume {
     public static double radius;
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
