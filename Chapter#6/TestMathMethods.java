@@ -1,4 +1,5 @@
-package ir.phgnight;
+package ir.phgnight; 
+
 import java.util.Scanner;
 
 public class TestMathMethods {
