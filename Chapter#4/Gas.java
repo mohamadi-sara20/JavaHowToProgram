@@ -1,9 +1,9 @@
 package ir.phgnight;
 import java.util.Scanner;
 public class Gas {
-     static int miles, gas;
-     static double totalGas, totalMiles;
-     static double average=0;
+     public static int miles, gas;
+     public static double totalGas, totalMiles;
+     public static double average=0;
 
     public static void main(String[] args) {
         totalGas = 0;
