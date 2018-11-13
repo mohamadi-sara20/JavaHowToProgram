@@ -1,6 +1,5 @@
 package ir.phgnight;
 
-import com.sun.org.apache.bcel.internal.generic.FALOAD;
 
 import java.util.Scanner;
 import java.util.Arrays;
