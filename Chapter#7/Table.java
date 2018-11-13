@@ -2,7 +2,8 @@ package ir.phgnight;
 //Question 7.4 of the book
 public class Table {
     public static void main(String[] args) {
-        int[][] table = new int[3][3];
+        final int ArraySize = 3;
+        int[][] table = new int[ArraySize][ArraySize];
         int counter = 0;
         for(int x = 0; x < table.length; x++){
 
