@@ -15,9 +15,7 @@ public class RectangleClass {
 
         double l = rec.getLength();
         double w = rec.getWidth();
-        double area = rec.area(rec.length, rec.width);
-        double perimeter = rec.perimeter(rec.length, rec.width);
-        System.out.printf("Lenght: %f%nWidth: %f%nPerimeter: %f%nArea: %f%n", l, w, rec.getPerimeter(), rec.getArea());
+        System.out.printf("Length: %f%nWidth: %f%nPerimeter: %f%nArea: %f%n", l, w, rec.getPerimeter(), rec.getArea());
 
         rec.setLength(4);
         rec.setWidth(9);
@@ -84,11 +82,6 @@ public class RectangleClass {
 
     public double getArea(){
         return area(length, width);
-    }
-
-    public String toString(double a){
-
-        return String.format("%f", a);
     }
 
 }
