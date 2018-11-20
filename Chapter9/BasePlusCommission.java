@@ -45,6 +45,7 @@ public class BasePlusCommission {
     public void setFirsname(String firsname){this.firsname = firsname;}
     public void setLastname(String lastname){this.lastname = lastname;}
     public void setSsn(String ssn){this.ssn = ssn;}
+    public void setEarning(double earning){this.earning = earning;}
 
 
     public void setCommission(double commission) {
@@ -70,8 +71,6 @@ public class BasePlusCommission {
             this.baseSalary = baseSalary;
     }
 
-
-    public void setEarning(double earning){this.earning = earning;}
 
 
 
