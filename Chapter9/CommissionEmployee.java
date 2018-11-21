@@ -31,7 +31,7 @@ public class CommissionEmployee extends Employee
     public double getGrossSales(){return gross; }
     public double getCommissionRate() {return commissionRate;}
 
-    public final void setCommissionRate( double rate ) {
+    public void setCommissionRate( double rate ) {
         if (!(rate < 1.0 && rate > 0.0))
             throw new IllegalArgumentException("Commission must be in range 0-1.");
         else
@@ -39,7 +39,7 @@ public class CommissionEmployee extends Employee
     }
 
 
-    public final void setGross( double gross ){
+    public void setGross( double gross ){
         if(gross < 0)
             throw new IllegalArgumentException("Gross sales cannot be empty!");
         else
