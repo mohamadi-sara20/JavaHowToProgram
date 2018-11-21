@@ -48,7 +48,7 @@ public class BasePlusCommission {
     public void setEarning(double earning){this.earning = earning;}
 
 
-    public final void setCommission(double commission) {
+    public  void setCommission(double commission) {
         if (!(commission <= 1.0 && commission >= 0.0))
             throw new IllegalArgumentException("Commission must be between 0-1!");
         else
