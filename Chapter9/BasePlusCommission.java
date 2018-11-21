@@ -3,7 +3,7 @@
 //ployee (Fig. 9.11) of the CommissionEmployee – BasePlusCommissionEmployee hierarchy to use
 //composition rather than inheritance.
 
-package ir.pghnight.Chapter9;
+package ir.pghnight;
 
 public class BasePlusCommission {
     private String firsname;
@@ -42,12 +42,12 @@ public class BasePlusCommission {
     public String getSsn(){return  this.ssn;}
     public  double getEarning(){return this.earning;}
 
-    public void setFirsname(String firsname){this.firsname = firsname;}
-    public void setLastname(String lastname){this.lastname = lastname;}
-    public void setSsn(String ssn){this.ssn = ssn;}
+    public final void setFirsname(String firsname){this.firsname = firsname;}
+    public final void setLastname(String lastname){this.lastname = lastname;}
+    public final void setSsn(String ssn){this.ssn = ssn;}
 
 
-    public void setCommission(double commission) {
+    public final void setCommission(double commission) {
         if (!(commission <= 1.0 && commission >= 0.0))
             throw new IllegalArgumentException("Commission must be between 0-1!");
         else
@@ -55,7 +55,7 @@ public class BasePlusCommission {
     }
 
 
-    public void setGross(double gross) {
+    public final void setGross(double gross) {
         if (gross < 0)
             throw new IllegalArgumentException("Gross sales cannot be negative!");
         else
@@ -63,7 +63,7 @@ public class BasePlusCommission {
     }
 
 
-    public void setBaseSalary(double baseSalary){
+    public final void setBaseSalary(double baseSalary){
         if(baseSalary < 0)
             throw new IllegalArgumentException("Base salary cannot be negative!");
         else

@@ -14,7 +14,7 @@
 //should ensure that the value of hours is between 0 and 168 (the total number of hours in a week).
 //Use class HourlyEmployee in a test program that’s similar to the one in Fig. 9.5.
 
-package ir.pghnight.Chapter9;
+package ir.pghnight;
 
 public class HourlyEmployee extends Employee
 {

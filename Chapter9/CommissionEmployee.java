@@ -14,7 +14,7 @@
 //should ensure that the value of hours is between 0 and 168 (the total number of hours in a week).
 //Use class HourlyEmployee in a test program that’s similar to the one in Fig. 9.5.
 
-package ir.pghnight.Chapter9;
+package ir.pghnight;
 
 public class CommissionEmployee extends Employee
 {
@@ -28,8 +28,8 @@ public class CommissionEmployee extends Employee
         setGross(gross);
     }
 
-    public double getGrossSales(){return gross; }
-    public double getCommissionRate() {return commissionRate;}
+    public final double getGrossSales(){return gross; }
+    public final double getCommissionRate() {return commissionRate;}
 
     public void setCommissionRate( double rate ) {
         if (!(rate < 1.0 && rate > 0.0))

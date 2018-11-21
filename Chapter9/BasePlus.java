@@ -15,7 +15,7 @@
 //a CommissionEmployee object and BasePlusCommissionEmployee object, respectively.
 
 
-package ir.pghnight.Chapter9;
+package ir.pghnight;
 
 public class BasePlus extends CommissionEmployee
 {
@@ -28,7 +28,7 @@ public class BasePlus extends CommissionEmployee
 
 
     public double getBaseSalary(){return this.baseSalary;}
-    public void setBaseSalary(double baseSalary){
+    public final void setBaseSalary(double baseSalary){
         if(baseSalary < 0)
             throw new IllegalArgumentException("Base salary cannot be negative!");
         else

@@ -14,7 +14,7 @@
 //sionEmployeeTest apps using these new classes to ensure that the apps still display the same results for
 //a CommissionEmployee object and BasePlusCommissionEmployee object, respectively.
 
-package ir.pghnight.Chapter9;
+package ir.pghnight;
 
 public class BasePlusTest {
 

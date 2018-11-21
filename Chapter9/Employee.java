@@ -15,7 +15,7 @@
 //sionEmployeeTest apps using these new classes to ensure that the apps still display the same results for
 //a CommissionEmployee object and BasePlusCommissionEmployee object, respectively.
 
-package ir.pghnight.Chapter9;
+package ir.pghnight;
 
 public class Employee {
     String firstName;
@@ -42,15 +42,15 @@ public class Employee {
     }
 
 
-    public void setFirstName(String firstName) {
+    public final void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public void setLastName(String lastName) {
+    public final void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public void setSocialSecurityNumber(String socialSecurityNumber){
+    public final void setSocialSecurityNumber(String socialSecurityNumber){
 
         this.socialSecurityNumber = socialSecurityNumber;
     }
