@@ -28,7 +28,7 @@ public class BasePlus extends CommissionEmployee
 
 
     public double getBaseSalary(){return this.baseSalary;}
-    public void setBaseSalary(double baseSalary){
+    public final void setBaseSalary(double baseSalary){
         if(baseSalary < 0)
             throw new IllegalArgumentException("Base salary cannot be negative!");
         else
