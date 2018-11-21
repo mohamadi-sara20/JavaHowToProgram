@@ -20,7 +20,6 @@ public class NewEmployeeeTest {
         CommissionEmployeee commissionEmployeee = new CommissionEmployeee("Milad", "Mo", "23452", 21, 11, 1992, 1000, 0.1);
         BasePlusCommissionEmployeee basePlusCommissionEmployeee = new BasePlusCommissionEmployeee("Ehsan", "Alinejad", "3456", 18, 12, 1991, 900, 0.15, 600);
         PieceWorker pieceWorker = new PieceWorker("Sara", "Shahmohamadi", "4567", 21, 11, 1994, 90, 5);
-        System.out.println(pieceWorker.earnings());
 
 
         Employeee[] employees = new Employeee[5];
