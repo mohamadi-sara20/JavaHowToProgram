@@ -9,10 +9,35 @@
 //cation of Figs. 10.4–10.9. Modify class Employee as described in this exercise, and do not modify any
 //of class Employee’s subclasses.
 
+
 package JavaHowToProgram.Chapter10;
 
-public interface Payable {
+public class BasePlusCommission extends Commission{
 
-    double getPaymentAmount();
+    private double baseSalary;
+
+    public BasePlusCommission(String first, String last, String ssn, double gross, double commissionRate, double baseSalary){
+        super(first, last, ssn, gross, commissionRate);
+        setBaseSalary(baseSalary);
+    }
+
+
+    public double getBaseSalary(){return this.baseSalary;}
+    public final void setBaseSalary(double baseSalary){
+        if(baseSalary < 0)
+            throw new IllegalArgumentException("Base salary cannot be negative!");
+        else
+            this.baseSalary = baseSalary;
+    }
+
+    public double earnings() {
+        return super.earnings() + getBaseSalary();
+    }
+
+    @Override
+    public String toString(){
+        return String.format("%s%s: %f%n", super.toString(), "base salary", getBaseSalary());
+    }
 
 }
+
