@@ -42,12 +42,22 @@ public class BasePlusCommission {
     public String getSsn(){return  this.ssn;}
     public  double getEarning(){return this.earning;}
 
+<<<<<<< HEAD
     public final void setFirsname(String firsname){this.firsname = firsname;}
     public final void setLastname(String lastname){this.lastname = lastname;}
     public final void setSsn(String ssn){this.ssn = ssn;}
 
 
     public final void setCommission(double commission) {
+=======
+    public void setFirsname(String firsname){this.firsname = firsname;}
+    public void setLastname(String lastname){this.lastname = lastname;}
+    public void setSsn(String ssn){this.ssn = ssn;}
+    public void setEarning(double earning){this.earning = earning;}
+
+
+    public  void setCommission(double commission) {
+>>>>>>> d27e568223abfa9f1b4d61720db6273140be45a6
         if (!(commission <= 1.0 && commission >= 0.0))
             throw new IllegalArgumentException("Commission must be between 0-1!");
         else
@@ -70,8 +80,6 @@ public class BasePlusCommission {
             this.baseSalary = baseSalary;
     }
 
-
-    public void setEarning(double earning){this.earning = earning;}
 
 
 
