@@ -1,9 +1,9 @@
-//Form1 Main method.
+//WindowForm Main method.
 package JavaHowToProgram.Chapter12;
 public class TestForm {
 
     public static void main(String[] args){
-        Form1 form = new Form1();
+        WindowForm form = new WindowForm();
         form.setSize(400, 150);
 
         form.setVisible(true);
