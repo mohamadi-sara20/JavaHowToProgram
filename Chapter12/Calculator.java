@@ -1,4 +1,4 @@
-//A very simple calculator for Chapter#12 of JavaHowToProgram. We also added a few simple functions to it for practice.  
+//A very simple calculator for Chapter#12 of JavaHowToProgram. We also added a few simple functions to it for practice. 
 package JavaHowToProgram.Chapter12;
 
 import javax.swing.*;
