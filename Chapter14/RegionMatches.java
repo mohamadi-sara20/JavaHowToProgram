@@ -6,6 +6,7 @@ public class RegionMatches {
 
 public static void main(String[] args){
     Scanner input = new Scanner(System.in);
+
     System.out.println("Enter a string!");
     String s1 = input.nextLine();
     System.out.println("Enter the second string!");
