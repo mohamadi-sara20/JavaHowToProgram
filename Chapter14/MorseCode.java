@@ -22,7 +22,6 @@ public class MorseCode {
     public static String[] morseAlphabet = {".-", "-...", "-.-.","-..",".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--",
             "-." , "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--..",
             ".----","..---", "..---", "....-", ".....", "-....", "--...", "---..", "----.", "-----"};
-    public static HashMap<String, String> myAlphabet = new HashMap<String, String>();
 
     public static void main(String[] args) {
         System.out.println(alphabet.length);
