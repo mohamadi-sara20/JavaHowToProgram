@@ -1,3 +1,7 @@
+//(Converting int Values to Characters) Write an application that inputs an integer code for
+//a character and displays the corresponding character. Modify this application so that it generates all
+//possible three-digit codes in the range from 000 to 255 and attempts to print the corresponding
+//characters.
 package JavaHowToProgram.Chapter14;
 
 public class DigitToChar {
