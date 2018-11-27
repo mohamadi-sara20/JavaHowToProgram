@@ -12,6 +12,8 @@ public class SearchChar {
         char c = input.next().charAt(0);
         int counter = 0;
         int ind = 0;
+
+        System.out.println(c);
         while (true) {
             if(s.indexOf(c, ind) == -1)
                 break;
