@@ -1,4 +1,4 @@
-//This is the answer to the below question; although, we did noy put the results in a table format due to it being urgent,
+//This is the answer to the below question; even though we did noy put the results in a table format due to it being urgent,
 // but the functionality is the same as required. Only the representation is different from what's asked in the book.
 //
 //
