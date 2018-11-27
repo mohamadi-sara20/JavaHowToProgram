@@ -24,8 +24,6 @@ public class MorseCode {
             ".----","..---", "..---", "....-", ".....", "-....", "--...", "---..", "----.", "-----"};
 
     public static void main(String[] args) {
-        System.out.println(alphabet.length);
-        System.out.println(morseAlphabet.length);
         System.out.println(converToMorseCode("HELLO"));
         System.out.println(convertToEnglish("... .. -"));
     }
