@@ -30,7 +30,7 @@ package JavaHowToProgram.Chapter14;
 
 import java.util.HashMap;
 import java.util.Scanner;
-public class FrequencyCounting {
+public class                                                                FrequencyCounting {
     public static void main(String[] args){
         System.out.println(getLetterFrequency("sdfgst").get('s'));
 
