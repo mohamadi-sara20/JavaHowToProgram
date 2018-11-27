@@ -14,7 +14,6 @@
 
 package JavaHowToProgram.Chapter14;
 import java.util.Arrays;
-import java.util.HashMap;
 
 public class MorseCode {
     public static Character[] alphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
