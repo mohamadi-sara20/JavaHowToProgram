@@ -1,4 +1,4 @@
-package ir.phgnight;
+package JavaHowToProgram.Chapter6;
 import java.util.Scanner;
 
 public class RoundingNumbers {
@@ -25,8 +25,5 @@ public class RoundingNumbers {
 
     public static double roundToHundreths(double num){
         return Math.floor(num * 100 + 0.5) / 100; }
-
-    public static double roundToThousands(double num){
-        return Math.floor(num * 1000 + 0.5) / 1000;}
 
 }

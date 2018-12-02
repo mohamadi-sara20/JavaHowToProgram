@@ -8,13 +8,12 @@ public class IntToChar {
 
 
         System.out.println(intToCharConverter(1));
-        System.out.println(intToCharConverter(254));
+        System.out.println(intToCharConverter(65));
     }
 
 
     public static char intToCharConverter(int digit){
-        char code = (char) digit;
-        return Character.forDigit(digit , 16);
+        return Character.forDigit(digit, 8);
 
 
     }

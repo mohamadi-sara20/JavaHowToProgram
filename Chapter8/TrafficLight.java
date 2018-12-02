@@ -1,4 +1,4 @@
-package ir.phgnight;
+package JavaHowToProgram.Chapter15;
 
 //Write an enum type TrafficLight, whose constants (RED, GREEN, YELLOW) take one parameter—
 //the duration of the light. Write a program to test the TrafficLight enum so that it displays the
