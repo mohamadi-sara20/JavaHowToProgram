@@ -43,7 +43,9 @@ public class Question3 {
         catch(IOException e){
                 System.err.println("IOE exception!");
             }
-
+        catch (ClassNotFoundException r){
+            System.err.println("Class not found!");
+        }
         }
 
 }

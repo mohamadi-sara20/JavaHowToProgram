@@ -17,7 +17,7 @@ public class Account implements Serializable {
 
 
     }
-    public Account(int account, String name, int salary, int year){
+    public Account(int account, String name, double salary, int year){
         this.account = account;
         this.firstName = name;
         this.salary = salary;
