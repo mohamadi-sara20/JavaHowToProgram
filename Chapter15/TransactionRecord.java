@@ -1,4 +1,4 @@
-//Question#2
+//Question#2 & Question#4#5
 package JavaHowToProgram.Chapter15;
 
 public class TransactionRecord {
@@ -14,5 +14,7 @@ public class TransactionRecord {
 
     public void setAmount(double amount){this.amount = amount;}
     public void setAccountNumber(int number){this.accountNumber = number;}
+    public int getAccountNumber(){return this.accountNumber;}
+    public double getAmount(){return this.amount;}
 
 }
