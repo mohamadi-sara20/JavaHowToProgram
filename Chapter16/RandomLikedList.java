@@ -36,7 +36,7 @@ public class RandomLikedList {
         for(Integer integer: linkedList)
             System.out.println(integer);
 
-        System.out.printf("%s%d\t\t%s%d", "Sum:", sum,"Average:", sum/linkedList.size());
+        System.out.printf("%s%d\t\t%s%d%n%n%n", "Sum:", sum,"Average:", sum/linkedList.size());
 
         for (int i = 0; i < 25; i++) {
             number = 1 + rand.nextInt(100);
