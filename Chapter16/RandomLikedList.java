@@ -46,10 +46,11 @@ public class RandomLikedList {
 
 
         System.out.print("Sorted Linked List: \n");
+
         for(Integer integer: linkedList2)
             System.out.println(integer);
 
-        System.out.printf("%s%d\t\t%s%d", "Sum:", sum,"Average:", sum/linkedList2.size());
+        System.out.printf("%s%d\t\t%s%d%n", "Sum:", sum,"Average:", sum/linkedList2.size());
 
     }
 
