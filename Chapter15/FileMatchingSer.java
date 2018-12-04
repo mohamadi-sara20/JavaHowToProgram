@@ -18,8 +18,8 @@ public class FileMatchingSer {
 
 
             Scanner oldMaster = new Scanner((Paths.get("src/JavaHowToProgram/Chapter15/oldmast.txt")));
-
             ObjectOutputStream newMaster = new ObjectOutputStream(Files.newOutputStream(Paths.get("src/JavaHowToProgram/Chapter15/updatedSalaries.ser")));
+
 
             while (oldMaster.hasNext()) {
 
