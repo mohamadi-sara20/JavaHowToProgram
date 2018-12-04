@@ -1,4 +1,4 @@
-//Note that we didn't get use of our ColorTest class in another application yet. 
+//Note that we didn't get use of our ColorTest class in another application yet.
 //
 // (Color Chooser) Use a HashMap to create a reusable class for choosing one of the 13 pre-
 //defined colors in class Color. The names of the colors should be used as keys, and the predefined
