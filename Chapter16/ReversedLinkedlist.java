@@ -1,6 +1,6 @@
 //We used two ways to solve this problem:
 //Once we copied the linkelist into another linked list and then used .reverse() to reverse the characters.
-//Once we used a while loop and .add() method to push the characters in a reversed order into the second list. 
+//Once we used a while loop and .add() method to push the characters in a reversed order into the second list.
 // (Copying and Reversing LinkedLists) Write a program that creates a LinkedList object of
 //10 characters, then creates a second LinkedList object containing a copy of the first list, but in re-
 //verse order.
