@@ -28,6 +28,7 @@ public class Duplicate {
 
     }
 
+
     public static int searchName(Set<String> set, String firstName) {
 
         SortedSet<String> finalSet = new TreeSet<>(set);

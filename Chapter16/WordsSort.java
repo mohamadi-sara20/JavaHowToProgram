@@ -3,6 +3,7 @@
 //TreeSet . [Note: This should cause the elements to be printed in ascending sorted order.]
 
 package JavaHowToProgram.Chapter16;
+
 import java.util.*;
 
 public class WordsSort {
@@ -18,6 +19,9 @@ public class WordsSort {
         set.addAll(Arrays.asList(sent));
         for(String word: set)
             System.out.println(word);
+
+
+
 
     }
 }

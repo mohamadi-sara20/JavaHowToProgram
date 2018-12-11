@@ -39,6 +39,7 @@ public class ReversedLinkedlist {
         for(Character character: reversedLinkedList)
             System.out.println(character);
 
+
     }
 }
 
